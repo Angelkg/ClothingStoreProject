@@ -1,112 +1,75 @@
-# Pastimes Clothing Store – Prototype (Part 2)
+Pastimes Clothing Store Web Application
 
-## 📌 Project Overview
+Overview
+Pastimes Clothing Store is a web application developed to represent a basic online clothing shop. It allows users to create accounts, log in, and browse available clothing items through a simple and easy-to-use interface. The project emphasizes clean design, usability, and core web development principles.
 
-Pastimes is a web-based e-commerce prototype that allows users to buy and sell second-hand clothing online. The system includes user registration, login, admin verification, product listing, and a shopping cart.
+Objectives
 
----
+- Demonstrate knowledge of fundamental web development concepts
+- Develop a functional multi-page application using PHP
+- Apply CSS to enhance the visual appearance and usability
+- Practice organizing and structuring a small web project
 
-## ⚙️ Technologies Used
+Features
 
-* PHP
-* MySQL
-* HTML5
-* CSS
-* XAMPP
+- User registration with form input fields
+- Login interface for existing users
+- Dashboard displaying a list of clothing items
+- Easy navigation between pages
+- Consistent and modern styling using CSS
+- Reusable design across all pages
 
----
+Technologies Used
 
-## 🗄️ Database
+- HTML: Used to structure the web pages
+- CSS: Used to design and style the interface
+- PHP: Used to handle page structure and backend logic
 
-**Database Name:** ClothingStore
+File Structure
 
-**Tables:**
+- index.php – Main landing page with navigation options
+- login.php – Page for user login
+- register.php – Page for new user registration
+- dashboard.php – Page displaying clothing items
+- style.css – Contains all styling for the application
 
-* tblUser
+System Design
+The application uses a basic multi-page layout:
 
-The database is automatically created and populated using:
+- Each page is created using PHP and HTML
+- A single CSS file is used for consistent styling
+- Navigation links connect all pages for smooth movement between sections
 
-* createTable.php
-* userData.txt
+User Flow
 
----
+1. The user opens the home page (index.php)
+2. The user selects either register or login
+3. After interaction, the user proceeds to the dashboard
+4. The dashboard shows available clothing items
 
-## 👤 User Features
 
-* Register a new account
-* Login using email and password
-* View available clothing items
-* Add items to shopping cart
 
----
+Design and Styling
 
-## 👨‍💼 Admin Features
+- The interface uses a simple and modern design approach
+- Forms include spacing and padding for better readability
+- Buttons have hover effects to improve user interaction
+- Content is centered to give a clean and professional layout
+- connectecd database 
 
-* Login as administrator
-* Verify new users
-* Delete users
 
----
 
-## 🔐 Security Features
+Future Improvements
 
-* Passwords are encrypted using MD5 hashing
-* User must be verified before login
-* Sessions are used to manage login state
+- Integrate a database 
+- Add secure login features (sessions and password encryption)
+- Include product images and categories
+- Improve mobile responsiveness
+ Develop an admin panel to manage products
 
----
+Purpose
+This project was developed as part of an academic assignment to show practical skills in web development, including both frontend design and backend structure using PHP.
 
-## 🛒 Shopping Cart
-
-* Uses PHP sessions
-* Items can be added to cart
-* Quantity increases if item is added multiple times
-
----
-
-## 📁 File Structure
-
-* DBConn.php → Database connection
-* createTable.php → Creates and loads database
-* login.php → User login
-* register.php → User registration
-* adminLogin.php → Admin login
-* dashboard.php → Admin panel
-* items.php → Product listing
-* cart.php → Shopping cart
-* css/style.css → Styling
-* database/userData.txt → Sample data
-
----
-
-## ▶️ How to Run
-
-1. Copy project folder to:
-   C:\xampp\htdocs
-
-2. Start XAMPP:
-
-   * Apache
-   * MySQL
-
-3. Open browser and run:
-   http://localhost/PastimesStore/createTable.php
-
-4. Then open:
-   http://localhost/PastimesStore/login.php
-
----
-
-## 🎥 Demonstration Features
-
-* User registration
-* Admin verification
-* User login
-* Viewing items
-* Adding items to cart
-
----
-
-## 📌 Conclusion
-
-This project demonstrates key web development concepts including PHP scripting, MySQL database integration, authentication, and session-based shopping cart functionality.
+Author
+Lerato Mojalefa
+Angel Kgafela
