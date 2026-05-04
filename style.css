@@ -1,0 +1,56 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+a:hover {
+    background: #333;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e63950;
+}
